@@ -54,7 +54,7 @@ Once flashed, download the Vial app at: **[https://get.vial.today](https://get.v
 
 ## Why Vial over VIA?
 
-* **No JSON File Uploads**: Configura tion is stored on the board.
+* **No JSON File Uploads**: Configuration is stored on the board.
 * **Advanced QMK Features**: Supports features like Tap Dance, Key Overrides, etc.
 * **More Flexibility**: Better suited for advanced keyboard users.
 
