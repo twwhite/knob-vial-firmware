@@ -1,0 +1,39 @@
+{
+    "lighting": "none",
+    "customKeycodes": [
+        {
+            "name": "L0",
+            "title": "Knob Super Button - L0",
+            "shortName": "B_SUPER_L0"
+        },
+        {
+            "name": "L1",
+            "title": "Knob Super Button - L1",
+            "shortName": "B_SUPER_L1"
+        },
+        {
+            "name": "L2",
+            "title": "Knob Super Button - L2",
+            "shortName": "B_SUPER_L2"
+        },
+        {
+            "name": "L3",
+            "title": "Knob Super Button - L3",
+            "shortName": "B_SUPER_L3"
+        }
+    ],
+    "matrix": {
+        "rows": 1,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+            [
+                { "y": 0.25, "x": 0.5 },
+                "0,0\n\n\n\n\n\n\n\n\ne",
+                "0,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [{ "y": 0.25 }, "0,0", "0,1", "0,2"]
+        ]
+    }
+}

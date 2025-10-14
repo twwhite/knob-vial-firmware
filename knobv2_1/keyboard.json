@@ -1,0 +1,30 @@
+{
+    "keyboard_name": "KNOB V2.1 (VIAL)",
+    "manufacturer": "BaselineDesigns",
+    "maintainer": "BaselineDesigns",
+    "usb": {
+        "vid": "0x4244",
+        "pid": "0x4B4E",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "encoder": true
+    },
+    "encoder": {
+        "rotary": [{ "pin_a": "F4", "pin_b": "F5", "resolution": 12 }]
+    },
+    "matrix_pins": {
+        "direct": [["B5", "B4", "E6"]]
+    },
+    "bootloader": "caterina",
+
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 }
+            ]
+        }
+    }
+}
